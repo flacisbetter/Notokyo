@@ -36,3 +36,10 @@ export type MenuProps = {
   noteId: number;
   setNoteId: (id: number) => void;
 };
+
+export type ContentProps = {
+  data: Data;
+  projectId: number;
+  pageId: number;
+  noteId: number;
+};

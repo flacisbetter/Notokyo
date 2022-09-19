@@ -19,7 +19,7 @@ export const dummyData = [
             author: "Miles",
             date_created: "2022-09-19T09:56:30",
             last_updated: "2022-09-19T09:56:30",
-            text: "test",
+            text: "test1",
           },
 
           {
@@ -28,7 +28,7 @@ export const dummyData = [
             author: "Miles",
             date_created: "2022-09-19T09:56:30",
             last_updated: "2022-09-19T09:56:30",
-            text: "test",
+            text: "test2",
           },
         ],
       },
@@ -46,7 +46,7 @@ export const dummyData = [
             author: "Miles",
             date_created: "2022-09-19T09:56:30",
             last_updated: "2022-09-19T09:56:30",
-            text: "test",
+            text: "test3",
           },
           {
             id: 1,
@@ -54,7 +54,7 @@ export const dummyData = [
             author: "Miles",
             date_created: "2022-09-19T09:56:30",
             last_updated: "2022-09-19T09:56:30",
-            text: "test",
+            text: "test4",
           },
         ],
       },
@@ -81,7 +81,7 @@ export const dummyData = [
             author: "Miles",
             date_created: "2022-09-19T09:56:30",
             last_updated: "2022-09-19T09:56:30",
-            text: "test",
+            text: "test5",
           },
 
           {
@@ -90,7 +90,7 @@ export const dummyData = [
             author: "Miles",
             date_created: "2022-09-19T09:56:30",
             last_updated: "2022-09-19T09:56:30",
-            text: "test",
+            text: "test6",
           },
         ],
       },
@@ -108,7 +108,7 @@ export const dummyData = [
             author: "Miles",
             date_created: "2022-09-19T09:56:30",
             last_updated: "2022-09-19T09:56:30",
-            text: "test",
+            text: "test7",
           },
           {
             id: 1,
@@ -116,7 +116,7 @@ export const dummyData = [
             author: "Miles",
             date_created: "2022-09-19T09:56:30",
             last_updated: "2022-09-19T09:56:30",
-            text: "test",
+            text: "test8",
           },
         ],
       },

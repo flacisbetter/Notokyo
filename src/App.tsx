@@ -24,7 +24,7 @@ function App() {
         />
       </div>
       <div className="col-span-5">
-        <Content />
+        <Content data={dummyData} projectId={projectId} pageId={pageId} noteId={noteId} />
       </div>
     </div>
   );
