@@ -31,5 +31,4 @@ function App() {
   );
 }
 
-export type { Data };
 export default App;
