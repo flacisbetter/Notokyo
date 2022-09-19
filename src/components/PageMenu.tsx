@@ -1,5 +1,5 @@
 function PageMenu() {
-  return <div>page menu</div>;
+  return <div></div>;
 }
 
 export default PageMenu;

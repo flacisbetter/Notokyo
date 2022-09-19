@@ -1,5 +1,5 @@
 function ProjectMenu() {
-  return <div>project menu</div>;
+  return <div></div>;
 }
 
 export default ProjectMenu;
