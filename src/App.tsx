@@ -2,35 +2,7 @@ import { useState } from "react";
 import Content from "./components/Content";
 import Menu from "./components/Menu";
 import { dummyData } from "./dummyData";
-
-type Note = {
-  id: number;
-  name: string;
-  author: string;
-  date_created: string;
-  last_updated: string;
-  text: string;
-};
-
-type Page = {
-  id: number;
-  name: string;
-  author: string;
-  date_created: string;
-  last_updated: string;
-  notes: Note[];
-};
-
-type Project = {
-  id: number;
-  name: string;
-  author: string;
-  date_created: string;
-  last_updated: string;
-  pages: Page[];
-};
-
-type Data = Project[];
+import type { Data } from "./index";
 
 function App() {
   const [data, setData] = useState<Data>(dummyData);

@@ -1,16 +1,6 @@
-import { Data } from "../App";
+import type { MenuProps } from "../index";
 
-type Props = {
-  data: Data;
-  projectId: number;
-  setProjectId: (id: number) => void;
-  pageId: number;
-  setPageId: (id: number) => void;
-  noteId: number;
-  setNoteId: (id: number) => void;
-};
-
-function Menu(props: Props) {
+function Menu(props: MenuProps) {
   return (
     <div>
       {props.projectId} {props.pageId} {props.noteId}
