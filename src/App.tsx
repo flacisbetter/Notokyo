@@ -1,8 +1,8 @@
-import { useState, useTransition } from "react";
+import { useState } from "react";
 import Content from "./components/Content";
 import Header from "./components/Header";
-import PageMenu from "./components/PageMenu";
-import ProjectMenu from "./components/ProjectMenu";
+import PageMenu from "./components/Page/PageMenu";
+import ProjectMenu from "./components/Project/ProjectMenu";
 import { dummyData } from "./dummyData";
 import type { Data } from "./index";
 
@@ -13,18 +13,16 @@ function App() {
 
   return (
     <div id="app-container" className="min-h-screen text-white">
-      <div
-        id="header-container"
-        className="min-h-[50px] text-center bg-app-header-blue drop-shadow-2xl"
-      >
+      <div id="header-container" className="grid min-h-[70px]">
         <Header />
       </div>
-      <div className="body-container grid grid-cols-6 h-[calc(100vh_-_50px)]">
-        <div
-          id="project-menu-container"
-          className=" bg-app-menu-blue col-span-1 border-r-1 border-slate-800"
-        >
-          <ProjectMenu />
+      <div className="body-container grid grid-cols-6 h-[calc(100vh_-_70px)]">
+        <div id="project-menu-container" className="col-span-1">
+          <ProjectMenu
+            data={data}
+            activeProject={activeProject}
+            setActiveProject={setActiveProject}
+          />
         </div>
         <div id="content-container" className="col-span-4 bg-app-content-blue">
           <Content />
@@ -33,7 +31,12 @@ function App() {
           id="page-menu-container"
           className="col-span-1 bg-app-menu-blue border-l-1 border-slate-800"
         >
-          <PageMenu />
+          <PageMenu
+            data={data}
+            activeProject={activeProject}
+            activePage={activePage}
+            setActivePage={setActivePage}
+          />
         </div>
       </div>
     </div>
